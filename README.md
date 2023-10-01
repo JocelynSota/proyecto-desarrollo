@@ -1,33 +1,35 @@
 # proyecto-desarrollo
-Esta aplicacion sirve de apoyo para entender las diferentes metodologias de desarrollo agil de software hecha en bash.
+Esta aplicacion sirve de apoyo para entender las diferentes metodologias de desarrollo agil de software.
+Hecho en bash.
 
 ## Getting started
 
-Para que el proyecto funcione, es necesario contar con docker instalado.
+Se puede utilizar el proyecto de manera local, o mediante una imágen de Docker.
 
 ## Prerequisites
 
-Para esto es necesario contar con docker, para esto es necesario utiliar los siguientes comandos:
-se adjuntara la pagina oficial de Docker donde se puede descargar: https://www.docker.com/
+Para utilizar el proyecto usando Docker, es necesario contar con el motor de Docker: https://www.docker.com/
 
 ## Installing
 
 Para la instalacion unicamente es necesario clonar este repositorio.
 
-´git clone <direccion del repositorio>´
+`git clone <direccion del repositorio>`
 
-Una vez clonado el repositorio, iremos a su carpeta y se ejecutara el siguiente comando dependiendo de la situacion:
+Una vez clonado el repositorio, utilizaremos los siguientes comandos:
 
-local:
+Para ejecutar el proyecto de manera local:
 `chmod 755 proyecto.sh`
 `./proyecto.sh`
-Docker: 
+
+Para ejecutar el proyecto con Docker: 
 `docker build -t proyecto .`
 `docker run -it proyecto`
 
 ## Built with
 
-*[Docker](https://www.docker.com/) - Docker
+* Bash - Lenguaje de programación.
+* [Docker](https://www.docker.com/) - Ejecución de contenedores.
 
 ##Contrubutting
 
@@ -42,9 +44,3 @@ version 1.0
 * **Samuel Sanchez Tarango** - Initial work - [Taimander](https://github.com/Taimander)
 
 * **Jocelyn Soto Avila** - Initial work - [JocelynSota](https://github.com/JocelynSota)
-
-## License
-
-This project is licensed under the MIT License - see the [LINCENSE.md](LICENSE.md) file for details
-
-
